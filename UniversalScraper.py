@@ -7,6 +7,7 @@ load_dotenv()
 
 from intent_classifier import IntentClassifier
 from apify_scraper import ApifyScraper
+from skip_tracer import SkipTracer
 
 class UniversalScraper:
     """
@@ -17,6 +18,7 @@ class UniversalScraper:
         self.configs = self._load_configs(config_path)
         self.classifier = IntentClassifier()
         self.apify = ApifyScraper()
+        self.tracer = SkipTracer()
         
     def _load_configs(self, path):
         if os.path.exists(path):
@@ -31,13 +33,18 @@ class UniversalScraper:
         classification = json.loads(self.classifier.classify_review(review_text, niche_config['niche']))
         
         if classification.get("tier") == "RED" and classification.get("is_lead"):
-            print(f"🔥 LEAD DE ORO DETECTADO: {author_name}")
+            # Obtenemos el teléfono real si es posible
+            phone = self.tracer.trace(author_name, niche_config['location'], niche_config['niche'])
+            
+            print(f"🔥 LEAD DE ORO DETECTADO: {author_name} ({phone})")
             return {
                 "author": author_name,
+                "phone": phone,
                 "text": review_text,
                 "tier": classification.get("tier"),
                 "summary": classification.get("summary"),
                 "niche": niche_config['niche'],
+                "location": niche_config['location'],
                 "lead_value": niche_config['lead_value'],
                 "payment_link": niche_config['payment_link']
             }

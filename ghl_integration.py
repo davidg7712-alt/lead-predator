@@ -38,7 +38,7 @@ def push_to_ghl(lead_data):
     try:
         response = requests.post(url, headers=headers, json=payload)
         if response.status_code in [200, 201]:
-            print(f"✅ Lead '{lead_data['author']}' (Nicho: {lead_data['niche']}) inyectado en GHL.")
+            print(f"✅ Lead '{lead_data['author']}' (Tel: {payload['phone']}) inyectado en GHL.")
             return True
         else:
             print(f"❌ Error GHL: {response.status_code} - {response.text}")
