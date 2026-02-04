@@ -37,16 +37,26 @@ class SkipTracer:
         """
         url = "https://api.peopledatalabs.com/v5/person/enrich"
         
-        # PDL handles locations better if we split city/state
+        # Intentamos separar Ciudad y Estado (ej: "Miami, FL" -> city="Miami", state="FL")
+        city = location
+        state = None
+        if "," in location:
+            parts = location.split(",")
+            city = parts[0].strip()
+            state = parts[1].strip()
+        
         params = {
             "api_key": self.api_token,
             "name": name,
-            "location": location,
-            "min_likelihood": 6 # 6 is the sweet spot for accuracy vs volume
+            "city": city,
+            "state": state,
+            "country": "US",
+            "min_likelihood": 6
         }
         
         try:
-            response = requests.get(url, params=params, timeout=12)
+            print(f"📡 [PDL] Consultando enriquecimiento para {name} en {city}...")
+            response = requests.get(url, params=params, timeout=15)
             if response.status_code == 200:
                 data = response.json()
                 phones = data.get("data", {}).get("phone_numbers", [])
