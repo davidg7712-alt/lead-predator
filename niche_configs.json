@@ -1,0 +1,434 @@
+{
+    "miami_hvac": {
+        "location": "Miami, FL",
+        "niche": "HVAC",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "08:00",
+            "end": "22:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 30
+    },
+    "miami_roofing": {
+        "location": "Miami, FL",
+        "niche": "ROOFING",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "08:00",
+            "end": "20:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 60
+    },
+    "miami_kitchen": {
+        "location": "Miami, FL",
+        "niche": "KITCHEN_GRANITE",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "09:00",
+            "end": "19:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 120
+    },
+    "miami_plumbing": {
+        "location": "Miami, FL",
+        "niche": "PLUMBING",
+        "lead_value": 29,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983b7e1f4b1896217182ace",
+        "operating_hours": {
+            "start": "07:00",
+            "end": "22:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 45
+    },
+    "orlando_hvac": {
+        "location": "Orlando, FL",
+        "niche": "HVAC",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "08:00",
+            "end": "22:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 30
+    },
+    "orlando_roofing": {
+        "location": "Orlando, FL",
+        "niche": "ROOFING",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "08:00",
+            "end": "20:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 60
+    },
+    "orlando_kitchen": {
+        "location": "Orlando, FL",
+        "niche": "KITCHEN_GRANITE",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "09:00",
+            "end": "19:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 120
+    },
+    "orlando_plumbing": {
+        "location": "Orlando, FL",
+        "niche": "PLUMBING",
+        "lead_value": 29,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983b7e1f4b1896217182ace",
+        "operating_hours": {
+            "start": "07:00",
+            "end": "22:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 45
+    },
+    "tampa_hvac": {
+        "location": "Tampa, FL",
+        "niche": "HVAC",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "08:00",
+            "end": "22:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 30
+    },
+    "tampa_roofing": {
+        "location": "Tampa, FL",
+        "niche": "ROOFING",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "08:00",
+            "end": "20:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 60
+    },
+    "tampa_kitchen": {
+        "location": "Tampa, FL",
+        "niche": "KITCHEN_GRANITE",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "09:00",
+            "end": "19:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 120
+    },
+    "tampa_plumbing": {
+        "location": "Tampa, FL",
+        "niche": "PLUMBING",
+        "lead_value": 29,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983b7e1f4b1896217182ace",
+        "operating_hours": {
+            "start": "07:00",
+            "end": "22:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 45
+    },
+    "ft_lauderdale_hvac": {
+        "location": "Fort Lauderdale, FL",
+        "niche": "HVAC",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "08:00",
+            "end": "22:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 30
+    },
+    "ft_lauderdale_roofing": {
+        "location": "Fort Lauderdale, FL",
+        "niche": "ROOFING",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "08:00",
+            "end": "20:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 60
+    },
+    "ft_lauderdale_kitchen": {
+        "location": "Fort Lauderdale, FL",
+        "niche": "KITCHEN_GRANITE",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "09:00",
+            "end": "19:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 120
+    },
+    "ft_lauderdale_plumbing": {
+        "location": "Fort Lauderdale, FL",
+        "niche": "PLUMBING",
+        "lead_value": 29,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983b7e1f4b1896217182ace",
+        "operating_hours": {
+            "start": "07:00",
+            "end": "22:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 45
+    },
+    "jacksonville_hvac": {
+        "location": "Jacksonville, FL",
+        "niche": "HVAC",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "08:00",
+            "end": "22:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 30
+    },
+    "jacksonville_roofing": {
+        "location": "Jacksonville, FL",
+        "niche": "ROOFING",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "08:00",
+            "end": "20:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 60
+    },
+    "jacksonville_kitchen": {
+        "location": "Jacksonville, FL",
+        "niche": "KITCHEN_GRANITE",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "09:00",
+            "end": "19:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 120
+    },
+    "jacksonville_plumbing": {
+        "location": "Jacksonville, FL",
+        "niche": "PLUMBING",
+        "lead_value": 29,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983b7e1f4b1896217182ace",
+        "operating_hours": {
+            "start": "07:00",
+            "end": "22:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 45
+    },
+    "wpb_hvac": {
+        "location": "West Palm Beach, FL",
+        "niche": "HVAC",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "08:00",
+            "end": "22:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 30
+    },
+    "wpb_roofing": {
+        "location": "West Palm Beach, FL",
+        "niche": "ROOFING",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "08:00",
+            "end": "20:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 60
+    },
+    "wpb_kitchen": {
+        "location": "West Palm Beach, FL",
+        "niche": "KITCHEN_GRANITE",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "09:00",
+            "end": "19:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 120
+    },
+    "wpb_plumbing": {
+        "location": "West Palm Beach, FL",
+        "niche": "PLUMBING",
+        "lead_value": 29,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983b7e1f4b1896217182ace",
+        "operating_hours": {
+            "start": "07:00",
+            "end": "22:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 45
+    },
+    "naples_hvac": {
+        "location": "Naples, FL",
+        "niche": "HVAC",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "08:00",
+            "end": "22:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 30
+    },
+    "naples_roofing": {
+        "location": "Naples, FL",
+        "niche": "ROOFING",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "08:00",
+            "end": "20:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 60
+    },
+    "naples_kitchen": {
+        "location": "Naples, FL",
+        "niche": "KITCHEN_GRANITE",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "09:00",
+            "end": "19:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 120
+    },
+    "naples_plumbing": {
+        "location": "Naples, FL",
+        "niche": "PLUMBING",
+        "lead_value": 29,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983b7e1f4b1896217182ace",
+        "operating_hours": {
+            "start": "07:00",
+            "end": "22:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 45
+    },
+    "kissimmee_hvac": {
+        "location": "Kissimmee, FL",
+        "niche": "HVAC",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "08:00",
+            "end": "22:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 30
+    },
+    "kissimmee_roofing": {
+        "location": "Kissimmee, FL",
+        "niche": "ROOFING",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "08:00",
+            "end": "20:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 60
+    },
+    "kissimmee_kitchen": {
+        "location": "Kissimmee, FL",
+        "niche": "KITCHEN_GRANITE",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "09:00",
+            "end": "19:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 120
+    },
+    "kissimmee_plumbing": {
+        "location": "Kissimmee, FL",
+        "niche": "PLUMBING",
+        "lead_value": 29,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983b7e1f4b1896217182ace",
+        "operating_hours": {
+            "start": "07:00",
+            "end": "22:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 45
+    },
+    "fort_myers_hvac": {
+        "location": "Fort Myers, FL",
+        "niche": "HVAC",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "08:00",
+            "end": "22:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 30
+    },
+    "fort_myers_roofing": {
+        "location": "Fort Myers, FL",
+        "niche": "ROOFING",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "08:00",
+            "end": "20:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 60
+    },
+    "fort_myers_kitchen": {
+        "location": "Fort Myers, FL",
+        "niche": "KITCHEN_GRANITE",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "09:00",
+            "end": "19:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 120
+    },
+    "fort_myers_plumbing": {
+        "location": "Fort Myers, FL",
+        "niche": "PLUMBING",
+        "lead_value": 29,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983b7e1f4b1896217182ace",
+        "operating_hours": {
+            "start": "07:00",
+            "end": "22:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 45
+    }
+}

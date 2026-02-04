@@ -1,0 +1,6 @@
+python-dotenv
+requests
+openai
+img2pdf
+arxiv
+feedparser

@@ -1,0 +1,7 @@
+python-dotenv
+requests
+openai
+apify-client
+schedule
+tzlocal
+pytz
