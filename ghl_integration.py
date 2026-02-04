@@ -9,8 +9,8 @@ def push_to_ghl(lead_data):
     """
     Pushes a verified gold lead to GoHighLevel with its specific payment link and exclusivity metadata.
     """
-    api_key = os.getenv("GHL_API_KEY")
-    location_id = os.getenv("GHL_LOCATION_ID")
+    api_key = os.getenv("GHL_API_KEY", "").strip()
+    location_id = os.getenv("GHL_LOCATION_ID", "").strip()
     
     url = "https://rest.gohighlevel.com/v1/contacts/"
     headers = {

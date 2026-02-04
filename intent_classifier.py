@@ -9,7 +9,7 @@ class IntentClassifier:
     Analyzes review text to determine the level of urgency and intent.
     """
     def __init__(self):
-        self.api_key = os.getenv("OPENAI_API_KEY")
+        self.api_key = os.getenv("OPENAI_API_KEY", "").strip()
         self.client = OpenAI(api_key=self.api_key)
 
     def classify_review(self, review_text, niche="HVAC"):

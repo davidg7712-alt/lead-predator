@@ -11,7 +11,7 @@ class ApifyScraper:
     Scrapes Google Maps reviews using the web_wanderer/google-reviews-scraper actor found in the user's account.
     """
     def __init__(self):
-        self.api_token = os.getenv("APIFY_API_TOKEN")
+        self.api_token = os.getenv("APIFY_API_TOKEN", "").strip()
         self.client = ApifyClient(self.api_token)
 
     def get_recent_negative_reviews(self, search_query, limit=10):
