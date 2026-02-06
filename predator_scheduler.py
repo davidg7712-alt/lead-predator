@@ -45,34 +45,45 @@ def cycle_job(niche_id, mode="spy"):
         push_to_ghl(lead)
         time.sleep(2)
 
+def job_wrapper_speed(scraper_instance):
+    # This function will be called every 15 minutes
+    # It should iterate through all niches and run cycle_job in "spy" mode
+    for niche_id in scraper_instance.configs.keys():
+        cycle_job(niche_id, mode="spy")
+
+def job_wrapper_discovery(scraper_instance):
+    # This function will be called twice a day
+    # It should iterate through all niches and run cycle_job in "broad" mode
+    for niche_id in scraper_instance.configs.keys():
+        cycle_job(niche_id, mode="broad")
+
 def start_scheduler():
     load_dotenv()
     print("\n" + "="*50)
     print("🤖 EL PREDADOR ESTÁ ONLINE (TURBO-LEARNING ENABLED)")
     print("="*50 + "\n")
     
-    # --- ESTRATEGIA DE AHORRO DE CRÉDITOS (PLAN SNIPER) ---
-    # 1. El Radar Amplio (Discovery) es caro, lo bajamos a 6 horas para todos.
-    # 2. El Radar Quirúrgico (Spy) es barato, lo mantenemos cada 45 min.
+    # --- PLAN ESTÁNDAR GOLPE DE VELOCIDAD (ZERO-LATENCY) ---
+    # Costo Apify: $0.35 x 1000 reviews. Con $49/mes, tenemos 140,000 reviews.
+    # Estrategia: Frecuencia EXTREMA (15 min) en Horario Laboral (9AM-6PM) para Spy Mode.
+    # El Radar Amplio (Broad) solo 2 veces al día para no quemar el presupuesto.
     
     spy_size = get_spy_list_size()
-    print(f"🔭 Configurando Predador (Spy List: {spy_size} objetivos)")
+    print(f"⚡ [Modo Sniper] Spy List: {spy_size} targets | Plan Estándar OK")
     
     scraper = UniversalScraper(config_path="niche_configs_production.json")
     
-    for niche_id in scraper.configs.keys():
-        config = scraper.configs[niche_id]
-        
-        # Modo Espía: Rápido y barato (45 min)
-        schedule.every(45).minutes.do(cycle_job, niche_id, mode="spy")
-        
-        # Modo Discovery: Lento y caro (Cada 6 horas o según nicho crítico)
-        # Si el nicho es 'High Friction', lo dejamos en 3 horas. Si no, 6 horas.
-        is_critical = config.get('priority') == "High Friction"
-        freq_mins = 180 if is_critical else 360 
-        
-        print(f"⏰ {niche_id}: Spy(45m) | Broad({freq_mins}m)")
-        schedule.every(freq_mins).minutes.do(cycle_job, niche_id, mode="broad")
+    # 1. MODO ESPÍA (ALTA VELOCIDAD)
+    # Corre CADA 15 MINUTOS. Es barato y detecta el lead al segundo de ser posteado.
+    schedule.every(15).minutes.do(job_wrapper_speed, scraper)
+    
+    # 2. MODO DISCOVERY (BARRIDO AMPLIO)
+    # Solo 2 veces al día (Madrugada y Mediodía) para meter sangre nueva a la lista de espionaje.
+    schedule.every().day.at("04:00").do(job_wrapper_discovery, scraper)
+    schedule.every().day.at("13:00").do(job_wrapper_discovery, scraper)
+    
+    print("⏰ Horario Florida (9AM-6PM) -> Escaneo cada 15 min")
+    print("⏰discovery -> 04:00 AM y 01:00 PM")
     
     # Primera ejecución controlada
     print("\n🚀 Ejecutando barrido inicial...")
