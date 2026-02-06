@@ -1,0 +1,12 @@
+{
+    "auction": {
+        "en": {
+            "sms": "🔥 NEW GOLD LEAD: {niche} needed in {location}! Value: ${lead_value}. High urgency detected. Be the FIRST to pay and get the contact details here: {payment_link}",
+            "whatsapp": "🚀 URGENT OPPORTUNITY! We just found a high-intent {niche} lead in {location}. {summary}. Only ONE contractor can buy this. Secure it now: {payment_link}"
+        },
+        "es": {
+            "sms": "🔥 ¡NUEVO LEAD DE ORO! Se necesita {niche} en {location}. Valor: ${lead_value}. Alta urgencia detectada. Sé el PRIMERO en pagar y recibe los datos aquí: {payment_link}",
+            "whatsapp": "🚀 ¡OPORTUNIDAD URGENTE! Encontramos un lead de {niche} con alta intención en {location}. {summary}. Solo UN contratista puede comprarlo. Asegúralo aquí: {payment_link}"
+        }
+    }
+}

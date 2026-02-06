@@ -37,7 +37,8 @@ class IntentClassifier:
             "tier": "RED" | "ORANGE" | "YELLOW",
             "confidence": 0-100,
             "summary": "Short explanation of why this is a lost sale (or why it isn't)",
-            "is_lead": boolean
+            "is_lead": boolean,
+            "language": "EN" | "ES"
         }}
         """
         
