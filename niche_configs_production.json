@@ -6,24 +6,11 @@
         "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
         "operating_hours": {
             "start": "08:00",
-            "end": "20:00",
+            "end": "21:00",
             "timezone": "America/New_York"
         },
         "search_frequency_minutes": 60,
         "priority": "High Friction"
-    },
-    "port_st_lucie_plumbing": {
-        "location": "Port St. Lucie, FL",
-        "niche": "PLUMBING",
-        "lead_value": 69,
-        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
-        "operating_hours": {
-            "start": "08:00",
-            "end": "20:00",
-            "timezone": "America/New_York"
-        },
-        "search_frequency_minutes": 90,
-        "priority": "High Growth"
     },
     "cape_coral_restoration": {
         "location": "Cape Coral, FL",
@@ -36,20 +23,20 @@
             "timezone": "America/New_York"
         },
         "search_frequency_minutes": 60,
-        "priority": "Crisis Recovery"
+        "priority": "High Friction"
     },
-    "lakeland_hvac": {
-        "location": "Lakeland, FL",
-        "niche": "HVAC",
-        "lead_value": 69,
+    "orlando_roofing": {
+        "location": "Orlando, FL",
+        "niche": "ROOFING",
+        "lead_value": 89,
         "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
         "operating_hours": {
             "start": "08:00",
             "end": "20:00",
             "timezone": "America/New_York"
         },
-        "search_frequency_minutes": 120,
-        "priority": "Central Hub"
+        "search_frequency_minutes": 60,
+        "priority": "High Friction"
     },
     "boca_raton_plumbing": {
         "location": "Boca Raton, FL",
@@ -63,6 +50,19 @@
         },
         "search_frequency_minutes": 120,
         "priority": "High Standards"
+    },
+    "port_st_lucie_plumbing": {
+        "location": "Port St. Lucie, FL",
+        "niche": "PLUMBING",
+        "lead_value": 69,
+        "payment_link": "https://link.fastpaydirect.com/payment-link/6983a7006503ca57b583bbf5",
+        "operating_hours": {
+            "start": "08:00",
+            "end": "20:00",
+            "timezone": "America/New_York"
+        },
+        "search_frequency_minutes": 120,
+        "priority": "High Growth"
     },
     "the_villages_hvac": {
         "location": "The Villages, FL",
